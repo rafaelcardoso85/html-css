@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes em CSS</title>
+    <style>
+      body {
+        font-family: "Courier New", Courier, monospace;
+        /*
+        Medidas Absolutas
+        cm, mm, in , px, pc
+        recomendação oficial: use px
+
+        Medidas Relativas
+        em, ex, rem, vw, vh, %
+        16px geralmente = 1em
+        */
+        font-size: 16px;
+      }
+
+      h1 {
+        /* shorthand font
+        - font-stye -> font-weight -> font-size -> font-family
+
+        font-family: 'Work Sans', sans-serif;
+        font-weight: bolder;
+        font-size: 3em;
+        font-style: italic;
+        */
+        font: italic bolder 3em "Work Sans" sans-serif;
+      }
+
+      h2 {
+        font: bold 2em "Work Sans";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Trabalhando com fontes</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus a libero
+      non tenetur quis numquam molestiae officiis dolorum ipsa possimus
+      laudantium consectetur exercitationem animi quia debitis, eius magni
+      dolorem.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam at
+      qui reiciendis temporibus, quia neque dicta, vel dolorum dolor debitis
+      officiis voluptate nemo optio atque itaque harum nulla odit sed?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugiat
+      consectetur quia? Sunt, perspiciatis ducimus?
+    </p>
+    <h2>Subtítulo do exercício</h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam illum aut
+      consequatur nobis, illo atque error est veniam sed eaque placeat quibusdam
+      ipsam odio fugiat natus magnam id in temporibus?Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Harum, nam minus? Suscipit doloremque,
+      sapiente vitae mollitia consequuntur ad voluptatum sint? Autem modi
+      dolorem aspernatur mollitia animi! Beatae recusandae libero porro?
+    </p>
+  </body>
+</html>
